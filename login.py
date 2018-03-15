@@ -18,7 +18,7 @@ def login():
     password=driver.find_element_by_xpath('//div[contains(@class,"modulein modulein1")]\
                                  //div[@class="pb40 position-rel"]//input')
     phone.send_keys('17602134795')
-    password.send_keys('lyg4795lyg')
+    password.send_keys('')
     ensure=driver.find_element_by_xpath('//div[contains(@class,"modulein modulein1")]'
                                         '//div[@onclick="loginByPhone(event);"]')
     # ensure = driver.find_element_by_xpath('//div[contains(@class,"modulein modulein1")]\
